@@ -1,0 +1,14 @@
+Program untuk control Motor AC 1 Phasa
+
+yang terdiri dari komponen:
+1. Arduino Nano
+2. Sensor Ultrasonic
+3. Limit Switch
+4. Adaprot 5v
+
+
+Sistem berkeja dengan cara 
+1. Jika Button tidak tertekan, dengan jarak Sensor > 30cm, maka Motor tidak akan menyala
+2. Jika Button tidak tertekan, dengan jarak Sensor < 30cm, maka Motor akan menyala
+3. Jika Button tertekan, dengan jarak sensor < 30cm maka Motor akan berhenti
+4. Jika Button tertekan, dengan jarak sensor > 30cm ma Motor tidak akan menyala
